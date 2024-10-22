@@ -3,7 +3,7 @@ extends Node
 @onready var input: AudioStreamPlayer
 var index: int
 var effect: AudioEffectCapture
-@onready var playbackNode = $"../AudioStreamPlayer2D"
+@onready var playbackNode = $"../AudioStreamPlayer"
 var playback: AudioStreamGeneratorPlayback
 @export var outputPath: NodePath
 var inputThreshold: float = 0.005
