@@ -1,6 +1,6 @@
 extends Node2D
 
-const playerScene = preload("res://escena/character.tscn")
+const playerScene = preload("res://character.tscn")
 
 func _ready():
 	if multiplayer.is_server():

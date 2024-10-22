@@ -1,10 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://da6j6124gu67a"]
 
-[ext_resource type="Script" path="res://script/audioManager.gd" id="1_1neim"]
+[ext_resource type="Script" path="res://script/audioManager.gd" id="1_o5mrv"]
 
 [node name="audioManager" type="Node"]
-script = ExtResource("1_1neim")
-outputPath = NodePath("input")
+script = ExtResource("1_o5mrv")
 
 [node name="input" type="AudioStreamPlayer" parent="."]
 bus = &"Record"
